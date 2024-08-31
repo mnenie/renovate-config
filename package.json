@@ -1,0 +1,16 @@
+{
+  "name": "@mnenie/renovate-config",
+  "version": "1.0.0",
+  "author": "Alex Peshkov <1alexpeshkov@gmail.com>",
+  "license": "MIT",
+  "repository": "https://github.com/mnenie/renovate-config",
+  "scripts": {
+    "test": "renovate-config-validator ./default.json"
+  },
+  "files": [
+    "default.json"
+  ],
+  "devDependencies": {
+    "renovate": "^38.59.1"
+  }
+}
